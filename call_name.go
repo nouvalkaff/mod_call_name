@@ -1,5 +1,5 @@
 package go_call_name
 
-func CallName() string {
-	return "Nouval! How are you?"
+func CallName(name string) string {
+	return name + "how are you? I'm fine too"
 }
