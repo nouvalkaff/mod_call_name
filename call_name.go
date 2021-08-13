@@ -1,5 +1,7 @@
 package go_call_name
 
-func CallName(name string) string {
-	return name + " how are you? I'm fine too"
+import "strconv"
+
+func CallName(name string, age int) interface{} {
+	return "Hello " + name + "are you already" + strconv.Itoa(int(age)) + "?"
 }
